@@ -1,0 +1,27 @@
+section {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#leftMirror {
+  border: 1px solid blue;
+  width: 50%;
+  height: auto;
+  box-sizing: border-box;
+  word-wrap: break-word
+}
+
+#rightMirror {
+  border: 1px solid red;
+  width: 50%;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+#message {
+text-align: center;
+  margin: 2px;
+  display: flex;
+  flex-wrap: wrap;
+}
